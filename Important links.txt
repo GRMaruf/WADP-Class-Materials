@@ -1,0 +1,41 @@
+#
+# Regular revision needed:
+##########################
+W3Schools: Python
+https://www.w3schools.com/python/python_strings.asp
+W3Schools: HTML Forms
+https://www.w3schools.com/html/html_forms.asp
+W3Schools: Django
+https://www.w3schools.com/django/django_db_postgresql_intro.php
+GeeksforGeeks: Django
+https://www.geeksforgeeks.org/python/django-tutorial/
+
+
+#
+# Must know:
+##########################
+Python course modules
+WADP course modules (HTML, CSS, Bootstrap)
+
+#
+# Looking forword to:
+##########################
+W3Schools: bootstrap5
+https://www.w3schools.com/bootstrap5/index.php
+W3Schools: W3.CSS
+https://www.w3schools.com/w3css/
+Django (Official)
+https://docs.djangoproject.com/en/6.0/intro/tutorial08/
+Tutorialspoint: Django
+https://www.tutorialspoint.com/django/index.htm
+
+
+#
+# Good to know:
+##########################
+W3Schools (How To)
+https://www.w3schools.com/howto/
+How TO - Get a Developer Job
+https://www.w3schools.com/howto/howto_blog_developer_job.asp
+W3Schools: JavaScript
+https://www.w3schools.com/js/js_comments.asp
