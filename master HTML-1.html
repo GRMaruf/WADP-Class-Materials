@@ -50,6 +50,26 @@
       padding: 16px;
     }
 
+    .content h2,
+    .content p {
+      text-align: center;
+    }
+
+    .content button {
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+      background-color: #000;
+      cursor: pointer;
+      width: 100px;
+      font-size: 18px;
+    }
+
+    .content button:hover {
+      opacity: 0.7;
+    }
+
     .form-card {
       background-color: #f1f1f1;
       margin: auto;
@@ -64,7 +84,7 @@
       display: block;
     }
 
-    input[type=text],
+    input,
     select,
     textarea {
       width: 100%;
@@ -79,6 +99,7 @@
 
     input[type=checkbox],
     input[type=radio] {
+      width: auto;
       padding: 12px;
       margin-top: 6px;
       margin-bottom: 6px;
@@ -173,16 +194,23 @@
     <p>The navbar will stick to the top when you reach its scroll position.</p>
   </div>
 
+  <div class="content" style="text-align: center;">
+    <button onclick="alert('Are you sure to delete this\n???')">Alert</button>
+  </div>
+
   <div class="content">
     <h2 style="text-align:center">Register Form</h2>
     <div class="form-card">
-      <form>
+      <form method="post">
 
-        <label>Label</label>
-        <input type="text" name="" placeholder="..">
+        <label>Username</label>
+        <input type="text" name="username" placeholder="Enter username..">
 
-        <label>Label</label>
-        <input type="text" name="" placeholder="..">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Enter email..">
+
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Enter password..">
 
         <label>Label</label>
         <select name="">
@@ -205,7 +233,7 @@
           <input type="radio" name="radio_choice" value="">Option<br>
         </div>
 
-        <label>Label</label>
+        <label>Description</label>
         <textarea name="" placeholder="Write something.." style="height:200px"></textarea>
 
         <input type="submit" value="Submit">
