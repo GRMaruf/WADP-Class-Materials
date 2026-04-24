@@ -1,8 +1,10 @@
 #
 # Must know:
 ##########################
-Python course modules
-WADP course modules (HTML, CSS, Bootstrap)
+Python Slides
+WADP CBLM pdf's
+(HTML, CSS, Bootstrap)
+Lastly, Practical Projects
 
 #
 # Part-1
@@ -18,6 +20,8 @@ https://www.w3schools.com/howto/
 #
 # Part-2
 ##########################
+W3Schools: bootstrap5
+https://www.w3schools.com/bootstrap5/index.php
 W3Schools: W3.CSS
 https://www.w3schools.com/w3css/
 W3Schools: Django
@@ -27,17 +31,15 @@ https://www.w3schools.com/django/django_db_postgresql_intro.php
 #
 # Part-3
 ##########################
-W3Schools: bootstrap5
-https://www.w3schools.com/bootstrap5/index.php
-WADP course modules (HTML, CSS, Bootstrap)
-https://github.com/GRMaruf/WADP-SHORTCUTS/tree/main/WADP%20course%20modules
+Assessment Slides & Projects
+
+WADP CBLM pdf's (HTML, CSS, Bootstrap)
+https://github.com/GRMaruf/WADP-CLASS-MATERIALS
 
 
 #
 # Part-4
 ##########################
-W3Schools: JavaScript
-https://www.w3schools.com/js/js_comments.asp
 GeeksforGeeks: Django
 https://www.geeksforgeeks.org/python/django-tutorial/
 
@@ -47,7 +49,7 @@ https://www.geeksforgeeks.org/python/django-tutorial/
 ##########################
 W3Schools: React (for interactive single-page applications)
 https://www.w3schools.com/react/default.asp
-Tutorialspoint: Django
-https://www.tutorialspoint.com/django/index.htm
+W3Schools: JavaScript
+https://www.w3schools.com/js/js_comments.asp
 Django (Official)
 https://docs.djangoproject.com/en/6.0/intro/tutorial08/

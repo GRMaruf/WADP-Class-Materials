@@ -1,0 +1,39 @@
+##
+## THIS CODE IS FOR QUICK PROJECT CREATION
+###############################################
+
+@echo off
+REM Step 1: Create virtual environment named .venv
+python -m venv .venv
+
+REM Step 2: Activate the virtual environment
+call .venv\Scripts\activate.bat
+
+REM Step 3: Install Django Pillow Django-rest-framework
+pip install django pillow djangorestframework
+
+REM Step 4: Create Django project named project_base in "Project folder_name"
+django-admin startproject project_base "Project folder_name"
+
+REM Step 5: Navigate into project folder
+cd "Project folder_name"
+
+REM Step 6: Create Django app named app_base
+python manage.py startapp app_base
+
+REM Step 7: Run initial migrations (skip it if you want custom authorization)
+python manage.py migrate
+
+REM Step 8: Create a superuser manually later (skip it if you want custom authorization)
+python manage.py createsuperuser
+
+REM Step 9: Open VS Code
+start "" code .
+
+REM Step 10: Open web page in browser
+start "" http://127.0.0.1:8000/
+
+REM Step 11: Run the development server
+python manage.py runserver
+
+pause
