@@ -1,13 +1,13 @@
 # Table of Contents
 (about) Web Application Development with Python Level-4
 
--1. [Python]
-Python Data Types
-Python OOP
-Python DSA
-Python Libraries
+- 1. [Python]
+- 2. [Python Data Types]
+- 3. [Python OOP]
+- 4. [Python DSA]
+- 5. [Python Libraries]
 
-Django
+- [Django]
 Django Templates
 Django Models
 Django Forms
