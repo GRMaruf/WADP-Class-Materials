@@ -117,7 +117,7 @@ urlpatterns = [
 ```
 
 ## 6. Create Templates
-Inside your app create a `template` folder, add a `base.html` file.
+Inside your app create a `templates` folder, add a `base.html` file.
 
 ``` html
 <!DOCTYPE html>
@@ -185,7 +185,7 @@ Add a `login.html` file.
 {% endblock %}
 ```
 
-Add a `dashboard.html' file:
+Add a `dashboard.html` file:
 
 ``` html
 {% extends 'base.html' %}
@@ -199,7 +199,7 @@ Add a `dashboard.html' file:
 {% endblock %}
 ```
 
-## 7. Now Run Server
+## 7. Now Run Development Server
 In the terminal:
 ``` bash
 py manage.py runserver
