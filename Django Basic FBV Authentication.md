@@ -104,7 +104,7 @@ urlpatterns = [
 ```
 
 ## 6. Create Templates
-Inside your app create a `template` folder, add a `base.html' file.
+Inside your app create a `template` folder, add a `base.html` file.
 
 ``` html
 <!DOCTYPE html>
@@ -129,7 +129,7 @@ Inside your app create a `template` folder, add a `base.html' file.
 Add a `register.html' file.
 
 ``` html
-{% extends 'base.html' %}
+{% extends 'base.html` %}
 
 {% block body %}
 <h1 class="text-center">Register User</h1>
@@ -157,7 +157,7 @@ Add a `register.html' file.
 Add a `login.html' file.
 
 ``` html
-{% extends 'base.html' %}
+{% extends 'base.html` %}
 
 {% block body %}
 <h1 class="text-center">Login User</h1>
