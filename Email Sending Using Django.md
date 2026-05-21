@@ -9,9 +9,7 @@ There are only two options for email sending `send_mail()` and `EmailMultiAltern
 | `send_mail()`            | simple emails          |
 | `EmailMultiAlternatives` | advanced/custom emails |
 
-**When `EmailMultiAlternatives` Is Better**
-
-Use it if you need:
+**When `EmailMultiAlternatives` Is Better**:
 
 * attachments
 * multiple content types
@@ -19,6 +17,8 @@ Use it if you need:
 * advanced email handling
 
 For normal HTML emails, `send_mail()` is perfectly fine.
+
+# Settings Configurations
 
 ### Gmail SMTP Settings
 
@@ -81,7 +81,7 @@ EMAIL_HOST_PASSWORD = 'your_email_password'
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 ```
 
-# Common Ports
+### Common Ports
 
 | Port | Security          |
 | ---- | ----------------- |
@@ -197,9 +197,7 @@ Gmail usually marks custom-domain emails as spam because your domain is missing 
 
 This is extremely common with new cPanel domains.
 
-**Most Likely Fix for You**
-
-Do these first:
+**Most Likely Fix for You**:
 
 1. Enable SPF + DKIM in cPanel
 2. Add DMARC
