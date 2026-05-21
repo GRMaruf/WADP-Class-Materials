@@ -12,15 +12,15 @@
 - [Python Libraries]
 
 - [Django]
-Django Templates
-Django Models
-Django Forms
-Django Views (+ async)
-Django Authentications (+ async)
-Django REST Framework (+ async)
-DRF Views (+ async)
-DRF Authentications
-Django Deployment (
+- [Django Templates]
+- [Django Models]
+- [Django Forms]
+- [Django Views] (+ async)
+- [Django Authentications] (+ async)
+- [Django REST Framework] (+ async)
+- [DRF Views] (+ async)
+- [DRF Authentications]
+- [Django Deployment] (
     + sms & email sending, 
     change & reset password,
     stripe connection,
@@ -28,18 +28,18 @@ Django Deployment (
     logging feature,
     caching feature,
     Celery + Redis for background tasks,
-     Docker + Nginx + Gunicorn (for Django)
+    Docker + Nginx + Gunicorn (for Django)
 ) (+ async)
-Django Packages
-Django AI
+- [Django Packages]
+- [Django AI]
 
-Frontend (
+- [Frontend] (
     + React
     W3CSS or Bootstrap,
     deployment in Vercel/Netlify (for React)
 )
 
-# Table of Contents (A Test)
+<!-- # Table of Contents (A Test)
 
 - [Introduction](#introduction)
 - [Installation](#installation)
@@ -49,4 +49,4 @@ Frontend (
 - [API Endpoints](#api-endpoints)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#license) -->
