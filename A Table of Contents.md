@@ -1,11 +1,15 @@
 # Table of Contents
 (about) Web Application Development with Python Level-4
 
-- 1. [Python]
-- 2. [Python Data Types]
-- 3. [Python OOP]
-- 4. [Python DSA]
-- 5. [Python Libraries]
+- [Tools & Shortcuts]
+- [Git & GitHub]
+- [Django Projects]
+
+- [Python]
+- [Python Data Types]
+- [Python OOP]
+- [Python DSA]
+- [Python Libraries]
 
 - [Django]
 Django Templates
@@ -34,9 +38,6 @@ Frontend (
     W3CSS or Bootstrap,
     deployment in Vercel/Netlify (for React)
 )
-
-GitHub
-Django Projects
 
 # Table of Contents (A Test)
 
