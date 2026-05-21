@@ -2,26 +2,27 @@
 
 Web Application Development with Python Level-4 uses python's Django Framework to build powerful backends solutions and REST API's.
 
-- [Tools & Shortcuts]
-- [Git & GitHub]
-- [Django Projects]
+- [Tools & Shortcuts](#)
+- [Git & GitHub](#)
+- [Django Projects](#)
 
-- [Python]
-- [Python Data Types]
-- [Python OOP]
-- [Python DSA]
-- [Python Libraries]
+- [Python](#)
+- [Python Data Types](#)
+- [Python OOP](#)
+- [Python DSA](#)
+- [Python Libraries](#)
 
-- [Django]
-- [Django Templates]
-- [Django Models]
-- [Django Forms]
-- [Django Views] (+ async)
-- [Django Authentications] (+ async)
-- [Django REST Framework] (+ async)
-- [DRF Views] (+ async)
-- [DRF Authentications]
-- [Django Deployment] (
+- [Django](#)
+- [Django Templates](#)
+- [Django Models](#)
+- [Django Forms](#)
+- [Django Views](#+ async)
+- [Django Authentications](#+ async)
+- [Django REST Framework](#+ async)
+- [DRF Views](#+ async)
+- [DRF Authentications](#)
+- [Django Deployment](#+ async)
+(
     + sms & email sending, 
     change & reset password,
     stripe connection,
@@ -30,11 +31,12 @@ Web Application Development with Python Level-4 uses python's Django Framework t
     caching feature,
     Celery + Redis for background tasks,
     Docker + Nginx + Gunicorn (for Django)
-) (+ async)
-- [Django Packages]
-- [Django AI]
+)
+- [Django Packages](#)
+- [Django AI](#)
 
-- [Frontend] (
+- [Frontend](#)
+(
     + React
     W3CSS or Bootstrap,
     deployment in Vercel/Netlify (for React)
