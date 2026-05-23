@@ -1,5 +1,7 @@
 # Application Proxying
 
+https://oxpedia.org/wiki/index.php?title=AppSuite:Grizzly#Multiple_Proxies_in_front_of_the_cluster
+
 An application proxy (also called an application-level proxy or application gateway) is a proxy server that operates at Layer 7 (Application Layer) of the OSI model. Unlike network or transport layer proxies, it can inspect, filter, and modify traffic based on the actual content of the communication, not just IP addresses or ports.
 
 It acts as an intermediary between a client and a server:
