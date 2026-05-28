@@ -32,6 +32,18 @@
 
 ---
 
+# Terminal
+
+- `mkdir [folder_name]` to create into a directory
+- `cd [folder_name]` to move into a directory
+- `cd ..` to move out from a directory
+- `dir` to display files and folder of current directory
+- `ren [old_name] [new_name]` to rename a file/directory
+- `del [file/folder]` to delete a file/directory
+- `Clt+C` to stop terminal process
+
+---
+
 # VS Code
 
 **VS code setup**
@@ -75,7 +87,6 @@ call .venv\Scripts\activate.bat
 ```bash
 pip install django whitenoise[brotli] pillow
 ```
-Other useful packages - djangorestframework, etc.
 
 **Install required packages from `requirements.txt` file**
 ```bash
@@ -88,7 +99,7 @@ django-admin startproject core .
 python manage.py startapp main
 ```
 
-### Test Project on Local Network
+## Test Project on Local Network
 To make your Django project accessible from all devices on your local network (via your router), you need to run the server on your machine’s local IP address.
 
 **Step-1** Find your local IP address (IPv4 Address): e.g. 192.168.x.x
