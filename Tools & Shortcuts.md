@@ -48,10 +48,50 @@ All necessary SHORTCUTS for you.
 4. Use Tab twice in the terminal to show autocomplete.
 5. Binary - [1.10.11.100] [101.110.111.1000]
 6. Binary AND, OR, XOR
+
 | A | B | AND | OR | XOR |
 | - | - | --- | ---| --- |
-| 0 | 0 | 0   | 0  | 0   |
-| 0 | 1 | 0   | 1  | 1   |
-| 1 | 0 | 0   | 1  | 1   |
-| 1 | 1 | 1   | 1  | 0   |
+| 0 | 0 |  0  |  0 |  0  |
+| 0 | 1 |  0  |  1 |  1  |
+| 1 | 0 |  0  |  1 |  1  |
+| 1 | 1 |  1  |  1 |  0  |
+
+---
 7. 
+
+Here is the **binary truth table for AND, OR, and XOR operations**:
+
+---
+
+## 🔢 Truth Table
+
+| A | B | AND (A · B) | OR (A + B) | XOR (A ⊕ B) |
+| - | - | ----------- | ---------- | ----------- |
+| 0 | 0 | 0           | 0          | 0           |
+| 0 | 1 | 0           | 1          | 1           |
+| 1 | 0 | 0           | 1          | 1           |
+| 1 | 1 | 1           | 1          | 0           |
+
+---
+
+## 🧠 Quick meaning
+
+* **AND** → 1 only if both are 1
+* **OR** → 1 if at least one is 1
+* **XOR** → 1 only if inputs are different
+
+---
+
+## ⚡ Simple intuition
+
+* AND → “both must be true”
+* OR → “at least one true”
+* XOR → “exactly one true”
+
+---
+
+If you want, I can also show:
+
+* Python code for this truth table
+* logic gate circuit diagram
+* or step-by-step binary operations 👍
