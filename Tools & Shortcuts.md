@@ -40,3 +40,15 @@ All necessary SHORTCUTS for you.
 1. Download x64 file from code.visualstudio.com
 2. Download python extension from extensions.
 3. Install and then select python interpreter from vs code.
+
+**Python**
+1. Use text[::-1] for reversing a string.
+2. Use """text""" or '''text''' for multiline string.
+3. Use Clt+C to stop terminal processes.
+4. Use Tab twice in the terminal to show autocomplete.
+5. Binary - [1.10.11.100.101.110.111.1000]
+6. Binary AND
+-   [0 0 -> 0]
+-   [0 1 -> 0]
+-   [1 0 -> 0]
+-   [1 1 -> 1]

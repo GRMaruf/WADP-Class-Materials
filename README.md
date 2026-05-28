@@ -2,7 +2,7 @@
 
 Web Application Development with Python Level-4 uses python's Django Framework to build powerful backends solutions and REST API's.
 
-- [Tools & Shortcuts](#https://github.com/GRMaruf/WADP-Class-Materials/blob/main/Tools%20%26%20Shortcuts/Keyboard%20SHORTCUTS.md)
+- Tools & Shortcuts (Done)
 - [Git & GitHub](#)
 - [Django Projects](#)
 
@@ -37,15 +37,3 @@ Web Application Development with Python Level-4 uses python's Django Framework t
     + React
     W3CSS or Bootstrap,
     deployment in Vercel/Netlify (for React)
-
-# Table of Contents (A Test)
-
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Configuration](#configuration)
-- [API Endpoints](#api-endpoints)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
