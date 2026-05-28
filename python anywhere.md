@@ -48,8 +48,9 @@ cd your_project_folder
 
 **Create a WEB app with Manual Configuration**
 
-- Set up source code location (manage.py)
-- Set up WSGI Configuration
+- Set up source code `settings.py` location
+- Set up WSGI Configuration path `manage.py` location
+- Set up WSGI Configuration `DJANGO_SETTINGS_MODULE` to `folder_name.settings`
 - Force https enabaled
 - Reload your pages
 
