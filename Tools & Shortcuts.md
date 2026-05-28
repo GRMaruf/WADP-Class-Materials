@@ -43,6 +43,7 @@
 1. code . = opens vs code from folder in the current path
 2. cmd = opens cmd from folder in the current path
 3. Clt+/ = comments a line or section
+4. Clt+B = opens/closes  left side bar
 
 **Python**
 1. Use text[::-1] for reversing a string.
@@ -50,7 +51,7 @@
 3. Use Clt+C to stop terminal processes.
 4. Use Tab twice in the terminal to show autocomplete.
 5. Binary - [1.10.11.100] [101.110.111.1000]
-6. Binary AND, OR, XOR
+6. Binary AND, OR, XOR:
 
 | A | B | AND | OR | XOR |
 | - | - | --- | ---| --- |
@@ -59,22 +60,63 @@
 | 1 | 0 |  0  |  1 |  1  |
 | 1 | 1 |  1  |  1 |  0  |
 
+7. Tutorials: https://wiki.python.org/moin/BeginnersGuide/Programmers
 ---
 
-# Python Virtual Environment
+# Django Project
+
+### Terminal SHORTCUTS
+
+**Create & activate virtual environment**
+```bash
+python -m venv .venv
+call .venv\Scripts\activate.bat
+```
+**Install required packages from `requirements.txt` file**
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+REM Create Django project named master_project
+django-admin startproject master_project
+
+REM Step 5: Navigate into project folder
+cd master_project
+
+REM Step 6: Create Django app named master_app
+python manage.py startapp master_app
+
+REM Step 7: Run initial migrations
+python manage.py migrate
+
+REM Step 8: (Optional) Create a superuser manually later
+python manage.py createsuperuser
+
+REM Step 9: Open VS Code
+start "" code .
+
+REM Step 10: Open admin page in browser
+start "" http://127.0.0.1:8000/admin
+
+REM Step 11: Run the development server
+python manage.py runserver
+
+pause
+```
 
 **Test Project on Local Network**
 To make your Django project accessible from all devices on your local network (via your router), you need to run the server on your machine’s local IP address.
 
-Step-1: Find your local IP address (IPv4 Address): e.g. 192.168.x.x
-'''bash
+**Step-1** Find your local IP address (IPv4 Address): e.g. 192.168.x.x
+```bash
 ipconfig
-'''
-Step-2: Run Django on that IP:
-'''bash
+```
+**Step-2** Run Django on that IP:
+```bash
 python manage.py runserver 192.168.x.x:8000
-'''
-Step-3: You may need to add '192.168.x.x' to ALLOWED_HOSTS in settings.py
-'''python
+```
+**Step-3** You may need to add '192.168.x.x' to ALLOWED_HOSTS in settings.py
+```python
 ALLOWED_HOSTS = ['192.168.x.x']
-'''
+```
