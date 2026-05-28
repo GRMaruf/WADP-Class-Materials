@@ -47,6 +47,6 @@ All necessary SHORTCUTS for you.
 3. Use Clt+C to stop terminal processes.
 4. Use Tab twice in the terminal to show autocomplete.
 5. Binary - [1.10.11.100] [101.110.111.1000]
-6. Binary AND - [0 0 -> 0] [0 1 -> 0] [1 0 -> 0] [1 1 -> 1]
-6. Binary OR - [0 0 -> 0] [0 1 -> 1] [1 0 -> 1] [1 1 -> 1]
-6. Binary XOR - [0 0 -> 0] [0 1 -> 1] [1 0 -> 1] [1 1 -> 0]
+6. Binary AND - 0 0 -> 0 | 0 1 -> 0 | 1 0 -> 0 | 1 1 -> 1
+6. Binary _OR - 0 0 -> 0 | 0 1 -> 1 | 1 0 -> 1 | 1 1 -> 1
+6. Binary XOR - 0 0 -> 0 | 0 1 -> 1 | 1 0 -> 1 | 1 1 -> 0
