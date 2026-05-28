@@ -65,47 +65,30 @@
 
 # Django Project
 
-### Terminal SHORTCUTS
-
 **Create & activate virtual environment**
 ```bash
 python -m venv .venv
 call .venv\Scripts\activate.bat
 ```
+
+**Install basic packages**
+```bash
+pip install django whitenoise[brotli] pillow
+```
+Other useful packages - djangorestframework, etc.
+
 **Install required packages from `requirements.txt` file**
 ```bash
 pip install -r requirements.txt
 ```
 
+**Create Django project & apps**
 ```bash
-REM Create Django project named master_project
-django-admin startproject master_project
-
-REM Step 5: Navigate into project folder
-cd master_project
-
-REM Step 6: Create Django app named master_app
-python manage.py startapp master_app
-
-REM Step 7: Run initial migrations
-python manage.py migrate
-
-REM Step 8: (Optional) Create a superuser manually later
-python manage.py createsuperuser
-
-REM Step 9: Open VS Code
-start "" code .
-
-REM Step 10: Open admin page in browser
-start "" http://127.0.0.1:8000/admin
-
-REM Step 11: Run the development server
-python manage.py runserver
-
-pause
+django-admin startproject core .
+python manage.py startapp main
 ```
 
-**Test Project on Local Network**
+### Test Project on Local Network
 To make your Django project accessible from all devices on your local network (via your router), you need to run the server on your machine’s local IP address.
 
 **Step-1** Find your local IP address (IPv4 Address): e.g. 192.168.x.x
