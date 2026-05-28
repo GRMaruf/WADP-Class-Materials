@@ -2,7 +2,7 @@
 
 Web Application Development with Python Level-4 uses python's Django Framework to build powerful backends solutions and REST API's.
 
-- [Tools & Shortcuts](#)
+- [Tools & Shortcuts](#https://github.com/GRMaruf/WADP-Class-Materials/blob/main/Tools%20%26%20Shortcuts/Keyboard%20SHORTCUTS.md)
 - [Git & GitHub](#)
 - [Django Projects](#)
 

@@ -8,14 +8,14 @@ All necessary SHORTCUTS for you.
 4. Win+Up/Down = minimize/maximize a window
 
 **Browser**
-5. Clt+N = opens a new window
-6. Clt+Sht+N = new incognito window
-7. Clt+T = opens a new tab
-8. Clt+W = close current tab
-9. Alt+F4 = close current application
-10. Only F5 = refresh webpage
-11. Clt+D = bookmark current webpage
-12. Clt+L = highlights address bar
+1. Clt+N = opens a new window
+2. Clt+Sht+N = new incognito window
+3. Clt+T = opens a new tab
+4. Clt+W = close current tab
+5. Alt+F4 = close current application
+6. Only F5 = refresh webpage
+7. Clt+D = bookmark current webpage
+8. Clt+L = highlights address bar
 
 **Basic**
 1. Clt+0 = resets zoom to 100%
