@@ -1,5 +1,4 @@
 # Keyboard SHORTCUTS
-All necessary SHORTCUTS for you.
 
 **Desktop**
 1. Windows+V = open clipboard
@@ -31,15 +30,19 @@ All necessary SHORTCUTS for you.
 11. Clt+Y = redo
 12. Clt+F = find next
 
-**VS Code**
-1. code . = opens vs code from folder in the current path
-2. cmd = opens cmd from folder in the current path
-3. Clt+/ = comments a line or section
+---
+
+# VS Code
 
 **VS code setup**
 1. Download x64 file from code.visualstudio.com
 2. Download python extension from extensions.
 3. Install and then select python interpreter from vs code.
+
+**Shortcuts**
+1. code . = opens vs code from folder in the current path
+2. cmd = opens cmd from folder in the current path
+3. Clt+/ = comments a line or section
 
 **Python**
 1. Use text[::-1] for reversing a string.
@@ -57,41 +60,21 @@ All necessary SHORTCUTS for you.
 | 1 | 1 |  1  |  1 |  0  |
 
 ---
-7. 
 
-Here is the **binary truth table for AND, OR, and XOR operations**:
+# Python Virtual Environment
 
----
+**Test Project on Local Network**
+To make your Django project accessible from all devices on your local network (via your router), you need to run the server on your machine’s local IP address.
 
-## 🔢 Truth Table
-
-| A | B | AND (A · B) | OR (A + B) | XOR (A ⊕ B) |
-| - | - | ----------- | ---------- | ----------- |
-| 0 | 0 | 0           | 0          | 0           |
-| 0 | 1 | 0           | 1          | 1           |
-| 1 | 0 | 0           | 1          | 1           |
-| 1 | 1 | 1           | 1          | 0           |
-
----
-
-## 🧠 Quick meaning
-
-* **AND** → 1 only if both are 1
-* **OR** → 1 if at least one is 1
-* **XOR** → 1 only if inputs are different
-
----
-
-## ⚡ Simple intuition
-
-* AND → “both must be true”
-* OR → “at least one true”
-* XOR → “exactly one true”
-
----
-
-If you want, I can also show:
-
-* Python code for this truth table
-* logic gate circuit diagram
-* or step-by-step binary operations 👍
+Step-1: Find your local IP address (IPv4 Address): e.g. 192.168.x.x
+'''bash
+ipconfig
+'''
+Step-2: Run Django on that IP:
+'''bash
+python manage.py runserver 192.168.x.x:8000
+'''
+Step-3: You may need to add '192.168.x.x' to ALLOWED_HOSTS in settings.py
+'''python
+ALLOWED_HOSTS = ['192.168.x.x']
+'''
