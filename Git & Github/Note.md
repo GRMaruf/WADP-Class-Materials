@@ -60,6 +60,4 @@ git push –u origin main
 
 **Important Note**
 - When pushing you will be asked to `login` with you github account if you are not logged in.
-- If you are not using your own PC:
- 1. You can login through incognito browser.
- 2. After finished working, you can then delete your working project directory, or even saved accounts from `Windows Credential Manager` in windows settings, and delete your .
+- If you are not using your own PC, you can login through incognito browser. You can also delete your project directory after finished working, or even saved accounts from `Windows Credential Manager` in windows settings.
