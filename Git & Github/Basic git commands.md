@@ -2,7 +2,6 @@
 
 **Checking git version**
 - `git --version`
-or,
 - `git -v`
 
 **Working with existing repo**
@@ -12,12 +11,12 @@ or,
 - Enter to the cloned repo `cd "repo_name"`
 - Setup local user (for public PC)
 ```bash
-git config --local user.name “your github username” 
+git config --local user.name “your name in github” 
 git config --local user.email “your github email”
 ```
 - Setup global user (for private PC)
 ```bash
-git config -–global user.name “your github username” 
+git config -–global user.name “your name in github” 
 git config -–global user.email “your github email”
 ```
 - You can check local/global settings with these commands:
@@ -32,7 +31,8 @@ git add .
 git commit –m “messages”
 git push
 ```
-- After finished working, you can then delete your local configurations from `Windows Credential Manager` in windows settings. 
+- When pushing you will be asked to `login` in you github account. you can login through incognito browser.
+- After finished working, you can then delete your local configurations from `Windows Credential Manager` in windows settings, and delete your working directory, if you are using a public PC.
 
 **git wardrobe**
 start a working area (see also: git help tutorial)
