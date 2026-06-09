@@ -7,7 +7,7 @@ Websites generally need to serve additional files such as images, JavaScript, or
 ```python
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
-    BASE_DIR / "main" / "static",
+    BASE_DIR / "myApp" / "static",
 ]
 ```
 
