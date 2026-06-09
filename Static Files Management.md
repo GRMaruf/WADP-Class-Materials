@@ -32,6 +32,7 @@ h1 {
 <body>
     <h1>Home</h1>
 </body>
+</html>
 ```
 
 ## Extra Configuration for PRODUCTION Mode
@@ -54,6 +55,17 @@ MIDDLEWARE = [
 ]
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
+STORAGES = {
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
+        # This triggers web browsers to automatically pull newly deployed file modifications instead of fetching stale cached versions.
+        # For without compression, use this backend "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
+        # For Cloud Object Storage Engine (Amazon S3 / R2), use "storages.backends.s3boto3.S3Boto3Storage" which requires  "pip install django-storages[boto3]"
+    },
+}
 ```
-</html>
-# Static Files in PRODUCTION Mode
+
+**Collect Static All Files into `STATIC_ROOT`:**
+```bash
+python manage.py collectstatic
+```
