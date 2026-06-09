@@ -1,4 +1,6 @@
 # Static Files Management
+Websites generally need to serve additional files such as images, JavaScript, or CSS. In Django, we refer to these files as “static files”. Django provides django.contrib.staticfiles to help you manage them.
+
 ## Static Files in DEBUG Mode
 
 **In `setings.py` file:**
@@ -57,8 +59,8 @@ MIDDLEWARE = [
 STATIC_ROOT = BASE_DIR / "staticfiles"
 STORAGES = {
     "staticfiles": {
-        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
         # This triggers web browsers to automatically pull newly deployed file modifications instead of fetching stale cached versions.
+        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
         # For without compression, use this backend "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
         # For Cloud Object Storage Engine (Amazon S3 / R2), use "storages.backends.s3boto3.S3Boto3Storage" which requires  "pip install django-storages[boto3]"
     },
