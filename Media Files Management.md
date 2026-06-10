@@ -26,19 +26,18 @@ if settings.DEBUG:
 class Image(models.Model):
     image = models.ImageField('Upload Image', upload_to='images', null=True)
 ```
+If you are using `ImageField`, you must install `pillow`.
+```bash
+pip install pillow
+```
 
-pillow
-makemigrations
-migrate folder media
-createsuperuser
-
-**In `admin.py` file:**
+**Image preview in `admin.py` file:**
 ```python
 from django.utils.html import format_html
 from .models import Image
 
 class ImageAdmin(admin.ModelAdmin):
-    # Create a custom field to render the HTML img tag
+    # Create a custom field 'image_preview' to render the HTML img tag
     def image_preview(self, obj):
         if obj.image:
             return format_html('<img src="{}" style="max-width: 100px; max-height: 100px;" />', obj.image.url)
@@ -52,12 +51,7 @@ class ImageAdmin(admin.ModelAdmin):
 admin.site.register(Image, ImageAdmin)
 ```
 
-**Pass this context from `views.py` file and use it inside templates:**
-```python
-    context = {
-        'images': Image.objects.all()
-    }
-```
+**Show specific or all the images in template:**
 ```html
     <!--Without models-->
     <img src="/media/images/SEO.jpg" alt="Alter" width="200">
@@ -69,3 +63,10 @@ admin.site.register(Image, ImageAdmin)
     {{i.image.url}}
     {% endfor %}
 ```
+
+
+
+
+
+
+
