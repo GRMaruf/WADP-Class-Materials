@@ -57,14 +57,10 @@ MIDDLEWARE = [
 ]
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
-STORAGES = {
-    "staticfiles": {
-        # This triggers web browsers to automatically pull newly deployed file modifications instead of fetching stale cached versions.
-        "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
-        # For without compression, use this backend "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
-        # For Cloud Object Storage Engine (Amazon S3 / R2), use "storages.backends.s3boto3.S3Boto3Storage" which requires  "pip install django-storages[boto3]"
-    },
-}
+# This triggers web browsers to automatically pull newly deployed file modifications instead of fetching stale cached versions.
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+# For without compression, use this backend "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
+# For Cloud Object Storage Engine (Amazon S3 / R2), use "storages.backends.s3boto3.S3Boto3Storage" which requires  "pip install django-storages[boto3]"
 ```
 
 **Collect Static All Files into `STATIC_ROOT`:**
