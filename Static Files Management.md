@@ -1,5 +1,5 @@
 # Static Files Management
-Websites generally need to serve additional files such as images, JavaScript, or CSS. In Django, we refer to these files as “static files”. Django provides django.contrib.staticfiles to help you manage them.
+Websites generally need to serve additional files such as images, JavaScript, or CSS. In Django, we refer to these files as “static files”. Django admin panal designs are also served as statice files.
 
 ## Static Files in DEBUG Mode
 
