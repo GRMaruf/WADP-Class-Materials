@@ -6,9 +6,6 @@ Websites generally need to serve additional files such as images, JavaScript, or
 **In `setings.py` file:**
 ```python
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "myApp" / "static",
-]
 ```
 
 **In `static/css/mycss.css` file inside app's folder:**
@@ -24,6 +21,7 @@ h1 {
 **In `templates/home.html` file: inside app's folder**
 ```html
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
