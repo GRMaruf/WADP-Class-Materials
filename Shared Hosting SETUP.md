@@ -89,7 +89,7 @@ pymysql.install__as_MySQLdb()
  - Create a database named 'pybrothe_grmaruf_job_portal'
  - Create a user with username ('pybrothe_grmaruf') and password
  - Asign the user to this database providing all the privilages
-*In **settings.py** file*
+In **settings.py** file
 ```python
 DATABASES = {
     'default': {
@@ -118,7 +118,7 @@ pip install "Django==4.2.23"
  - Create a database named 'pybrothe_grmaruf_job_portal'
  - Create a user with username ('pybrothe_grmaruf') and password
  - Asign the user to this database providing all the privilages
-*In **settings.py** file*
+In **settings.py** file
 ```python
 DATABASES = {
     'default': {
@@ -138,6 +138,10 @@ DATABASES = {
 pip freeze > requirements.txt
 ```
 
+**cPanal SETUP**
+ 1. Search for 'Domain', and create a subdomain, or you can the existing domain.
+ 2. Search for 'Setup Python App', select recommended python version, use default derectory ('home/') or use your own ('home/GRMaruf/testApp'), select the domain/subdomain you want to use, then press `Create` button.
+ 3. Search for 
 
 
 **To Clean up Caches**
