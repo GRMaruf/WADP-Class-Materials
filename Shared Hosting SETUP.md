@@ -148,7 +148,7 @@ pip freeze > requirements.txt
 ```python
 from project_folder.wsgi import application # Use the folder where wsgi.py file exists
 ```
- 5. Search for 'Setup Python App'
+ 5. Search for 'Setup Python App', copy the (virtual env) comm
 
 
 **To Clean up Caches**
