@@ -75,3 +75,31 @@ MYSQLCLIENT_CFLAGS = "$(mysql_config --cflags)" \
 MYSQLCLIENT_LDFLAGS = "$(mysql_config --libs)" \
 pip install mysqlclient
 ```
+Alternative for `mysql` similar but slower:
+```bash
+pip install pymysql
+```
+If you are using 'pymysql', you must import it from your project's `__init__.py` file:
+```python
+import pymysql
+pymysql.install__as_MySQLdb()
+```
+*Creating your MySQL Database from cPanal*
+ - In cPanal, go to 'Manage My Database' (by search)
+ - Create a database named 'pybrothe_grmaruf_job_portal'
+ - Create a user with username ('pybrothe_grmaruf') and password
+ - Asign the user to this database providing all the privilages
+*In **settings.py** file*
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql', # Fixed for mysql
+        'NAME': 'pybrothe_grmaruf_job_portal', # Your database name
+        'USER': 'pybrothe_grmaruf', # The user who is assigned to the database
+        'PASSWORD': '564151.faoe', # User password
+        'HOST': 'localhost', # Use your database domain (domain.com), if using other hosting site for database
+        'PORT': '3306', # Fixed for mysql
+    }
+        # For Production use, it is recommended to use environment variables for 'NAME', 'USER', 'PASSWORD' and 'HOST'
+}
+```
