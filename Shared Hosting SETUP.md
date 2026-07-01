@@ -103,3 +103,44 @@ DATABASES = {
         # For Production use, it is recommended to use environment variables for 'NAME', 'USER', 'PASSWORD' and 'HOST'
 }
 ```
+
+**PostgreSQL SETUP**
+```bash
+pip install psycopg2
+pip install psycopg2-binary # better for cPanal
+```
+*Check your cPanal's version, make sure that version supports your Django version, then install supported Django*
+```bash
+pip install "Django==4.2.23"
+```
+*Creating your PostgreSQL Database from cPanal*
+ - In cPanal, go to 'PostgreSQL Database' (by search)
+ - Create a database named 'pybrothe_grmaruf_job_portal'
+ - Create a user with username ('pybrothe_grmaruf') and password
+ - Asign the user to this database providing all the privilages
+*In **settings.py** file*
+```python
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql', # Fixed for PostgreSQL
+        'NAME': 'pybrothe_grmaruf_job_portal', # Your database name
+        'USER': 'pybrothe_grmaruf', # The user who is assigned to the database
+        'PASSWORD': '564151.faoe', # User password
+        'HOST': 'localhost', # Use your database domain (domain.com), if using other hosting site for database
+        'PORT': '5432', # Fixed for PostgreSQL
+    }
+        # For Production use, it is recommended to use environment variables for 'NAME', 'USER', 'PASSWORD' and 'HOST'
+}
+```
+
+**Prepare `requirements.txt` file**
+```bash
+pip freeze > requirements.txt
+```
+
+
+
+**To Clean up Caches**
+```bash
+pip cache purge
+```
