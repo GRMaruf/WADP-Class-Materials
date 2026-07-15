@@ -69,19 +69,19 @@ git push –u origin main
 
 ## Errors Handling
 Error - 1
-**Command:** `git config --local user.name “username”`
-**error:** no action specified
-**Solution:** You must type those symbles `"`, `-`; don't copy/paste
+ - **Command:** `git config --local user.name “username”`
+ - **error:** no action specified
+ - **Solution:** You must type those symbles `"`, `-`; don't copy/paste
 
 Error - 2
-**Command:** `git pull`
-**error:** There is no tracking information for the current branch.
-**Solution:** `git branch --set-upstream-to=origin/main main` and then `git pull`
+ - **Command:** `git pull`
+ - **error:** There is no tracking information for the current branch.
+ - **Solution:** `git branch --set-upstream-to=origin/main main` and then `git pull`
 (Note: Replace main with master if your repository uses that naming convention instead.)
 
 Error - 3
-**Command:** `git pull` or `git merge`
-**error:** fatal: refusing to merge unrelated histories
-**Solution:** `git merge origin/main --allow-unrelated-histories` and then `git pull` or `git merge`
+ - **Command:** `git pull` or `git merge`
+ - **error:** fatal: refusing to merge unrelated histories
+ - **Solution:** `git merge origin/main --allow-unrelated-histories` and then `git pull` or `git merge`
 
 
