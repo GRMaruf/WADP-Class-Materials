@@ -48,10 +48,13 @@ git config --local user.email “your github email”
 git config --global --list
 git config --global user.name “your name in github” 
 git config --global user.email “your github email”
-``` 
-- Then run these commands:
+```
+- If you already have `README.md`, `LICENCE`, etc. then you have to pull them in your project:
 ```bash
 git pull
+```
+- Then run these commands:
+```bash
 git add .
 git commit –m “messages” 
 git branch –M main 
@@ -64,7 +67,7 @@ git push –u origin main
 
 
 
-## Errors
+## Errors Handling
 Error - 1
 **Command:** `git config --local user.name “username”`
 **error:** no action specified
