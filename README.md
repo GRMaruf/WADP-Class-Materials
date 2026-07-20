@@ -564,6 +564,7 @@ These topics are often skipped by beginners but are valuable in real jobs:
 3. SQL & Database Design
 
 **Django Core**
+
 4. Django Basics
 5. Templates
 6. Models
@@ -573,6 +574,7 @@ These topics are often skipped by beginners but are valuable in real jobs:
 10. Search / Filter / Pagination
 
 **Intermediate**
+
 11. CBVs
 12. Admin Customization
 13. Signals
@@ -582,16 +584,19 @@ These topics are often skipped by beginners but are valuable in real jobs:
 17. Email Features
 
 **API Development**
+
 18. DRF Fundamentals
 19. DRF Authentication
 20. API Documentation
 21. Advanced Queries
 
 **Frontend**
+
 22. React
 23. React + DRF
 
 **Production**
+
 24. Celery + Redis
 25. Caching
 26. Logging
@@ -600,6 +605,7 @@ These topics are often skipped by beginners but are valuable in real jobs:
 29. AWS/VPS Deployment
 
 **Advanced**
+
 30. Django Channels
 31. Testing
 32. CI/CD
