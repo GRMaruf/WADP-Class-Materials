@@ -16,7 +16,7 @@ ALLOWED_HOST = ['*', 'your_domain_name.com'] # '*' is not recommended
 
 INSTALLED_APPS = [
     ...
-    'whitennoise.runserver_nostatic', # uses 'whitenoise' also in development, right before 'staticfiles'
+    'whitenoise.runserver_nostatic', # uses 'whitenoise' also in development, right before 'staticfiles'
     'django.contrib.staticfiles',
 ]
 
